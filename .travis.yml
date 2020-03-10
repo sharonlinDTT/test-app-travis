@@ -2,9 +2,9 @@ branches:
   only: master
 env:
   global:
-  - S3_BUCKET_NAME=
-  - CODEDEPLOY_APPLICATION=
-  - CODEDEPLOY_GROUP=
+  - S3_BUCKET_NAME=sharon-test-bucket
+  - CODEDEPLOY_APPLICATION=sharon-codedeploy-app
+  - CODEDEPLOY_GROUP=sharon-codedeploy-group
   - REGION=ap-northeast-1
   - LOCAL_DIR=deploy
 script:
